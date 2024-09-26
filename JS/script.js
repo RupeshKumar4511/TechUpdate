@@ -24,9 +24,11 @@ function changeSlide() {
 }
 
 
-
-let message = document.querySelector("#contact");
-let dialog = document.querySelector(".popup")
-message.addEventListener("click",()=>{
-dialog.show()
-});
+function popup(){
+    let message = document.querySelector("#contact");
+    let dialog = document.querySelector(".popup")
+    message.addEventListener("click",()=>{
+    dialog.show()
+    });
+}
+popup();

@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    
+  }
+  html,body{
+    overflow-x:hidden;
+  }
+  
+.navbar {
+    background-color:#4F75FF;
+    width: 100vw;
+    position:fixed;
+    top: 0px;
+    z-index: 3;
+    
+  }
+  
+.navbar-content {
+    display: inline-block;
+    height: 12vh;
+    width: 50vw;
+  }
+  
+.logo-image {
+    border-radius: 50%;
+    margin-left: 3%;
+    margin-top: 1.6%;
+    float: left;
+  
+  }
+  
+  
+  
+.nav-elements {
+    float: left;
+    list-style: none;
+    margin-top: 3.8%;
+    margin-right: 2%;
+    margin-left: 8%;
+    font-size: 1.3em;
+  }
+  
+  
+a {
+    text-decoration: none;
+    color:white;  
+  }
+  
+a:hover {
+    color: yellow;
+  }
+  
+  .nav-search-login-elements {
+    height: 12vh;
+    width: 50vw;
+    float: right;
+  
+  }
+  
+  
+  .search {
+    margin-top: 3%;
+    margin-left: 28%;
+    height: 6vh;
+    width: 18vw;
+    border:2px solid grey;
+    font-size:1rem;
+    border-radius:5px;
+  }
+  
+  
+  
+  .btn-sm {
+    height: 5vh;
+    width: 5vw;
+    border:1.5px solid grey;
+    border-radius:5px;
+  }
+  
+  .btn-sm:hover {
+    background-color: #6ec207;
+    color: white;
+  }
+  
+  /* .login {
+  }
+  
+  .login img {
+    margin-left: 15%;
+    position:relative;
+    top:13%;
+  }
+   */
+
+  .popup{
+    border :1px solid grey;
+    border-radius:10px;
+    background-color:#F5F5F5;
+    margin-top:20vh;
+    padding-left:3vw;
+    margin-left:30vw; 
+    z-index:2;
+    
+  }
+  .contact-us{
+    padding-top:1vh;
+    
+  }
+  
+  
+  .cross-icon{
+    margin-left:30vw;
+    padding-right:0.5vw;
+    height:6vh;
+  }
+  
+  form{
+    margin:0px;
+    padding:0px;
+    
+  }
+  
+  input{
+    
+    margin-top:5%;
+    width:30vw;
+    height:5vh;
+    font-size:1em;
+  }
+  .contact-sub{
+    width:10vw;
+    background-color:#88D66C;
+    margin-bottom:8vh;
+    border-radius:10px;
+  }
+
+
+  .latest-updates {
+    margin-top:12vh;
+    width: 100vw;
+    height: 10vh;
+    background-color: #f5f5df;
+    text-align:center;
+    color:blue;
+    padding-top:5vh;
+    font-size:2rem;
+    
+  }
+
+  .content {
+    display:flex;
+    width: 100vw;
+    height: 90vh;
+    background-color:#f5f5df;
+  }
+  
+  .content-box1{
+   width:26.7vw;
+   background-color:green;
+   margin-left:10vh;
+   border-radius:10px;
+   background-color:transparent;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-top:14vh;
+   height:50vh;
+    
+  }
+  
+  .content-box1 img{
+    border-radius:10px;
+    height:50vh;
+    width:26.7vw;
+  }
+  
+  .content-box2{
+    width:26.7vw;
+    background-color:red;
+    margin-left:10vh;
+    border-radius:10px;
+    background-color:transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top:14vh;
+    height:50vh;
+    
+  }
+  .content-box2 img{
+    border-radius:10px;
+    height:50vh;
+    width:26.7vw;
+  }
+  
+
+  .content-box3{
+    width:26.7vw;
+    background-color:blue;
+    margin-left:10vh;
+    border-radius:10px;
+    background-color:transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top:14vh;
+    height:50vh;
+    
+  }
+  
+  
+  .content-box3 img{
+    border-radius:10px;
+    height:50vh;
+    width:26.7vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer {
+    display:flex;
+    width: 100vw;
+    height: 30vh;
+    background-color:#001F3F;
+  }
+  
+  footer-box1{
+    width:30vw;
+   
+  }
+  .footer-box1 img{
+    margin-left:10vw;
+    margin-right:5vw;
+    margin-top:6vh;
+    height:20vh;
+    border-radius:50%;
+  }
+  
+  .footer-box2 {
+    width:40vw;
+  }
+  .footer-box2 h2{
+    color:white;
+    margin-left:5vw;
+    margin-top:6vh;
+    
+  }
+  
+  .footer-box2 p{
+    color:white;
+    margin-left:5vw;
+    margin-top:3vh;
+    font-size:1.2rem;
+  }
+  .read-more{
+    color:yellow;
+  }
+  .footer-box3 h2{
+    color:white;
+    margin-left:5vw;
+    margin-top:6vh;
+    
+  }
+  .footer-box3 img{
+    margin-top:4vh;
+    margin-left:2vw;
+    height:8vh;
+  }
+  
+  #github-icon{
+    margin-top:3.8vh;
+    margin-left:5vw;
+    height:8vh;
+  }
