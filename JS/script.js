@@ -1,20 +1,20 @@
 let currentIndex = 0;
-let forward = true;  // Track the direction of the slide (true means forward, false means backward)
+let forward = true;
 const slides = document.querySelectorAll('.slider img');
 const totalSlides = slides.length;
-const slider = document.querySelector('.slider');  // Target the slider container
-const slideInterval = setInterval(changeSlide, 3000); // Change slide every 3 seconds
+const slider = document.querySelector('.slider');
+const slideInterval = setInterval(changeSlide, 3000);
 
 function changeSlide() {
     if (forward) {
         currentIndex++;
         if (currentIndex >= totalSlides - 1) {
-            forward = false;  // Change direction when the last slide is reached
+            forward = false;
         }
     } else {
         currentIndex--;
         if (currentIndex <= 0) {
-            forward = true;  // Change direction when the first slide is reached
+            forward = true;
         }
     }
 
@@ -24,11 +24,75 @@ function changeSlide() {
 }
 
 
-function popup(){
-    let message = document.querySelector("#contact");
-    let dialog = document.querySelector(".popup")
-    message.addEventListener("click",()=>{
-    dialog.show()
-    });
-}
-popup();
+// for contact us popup in index
+
+let message = document.querySelector("#contact");
+let dialog = document.querySelector("#contact-popup");
+message.addEventListener("click", () => {
+    
+    dialog1.style.visibility = "hidden";
+    dialog2.style.visibility = "hidden";
+    dialog3.style.visibility = "hidden";
+    dialog.style.visibility = "visible";
+    dialog.show();
+
+});
+
+
+
+
+
+// for login popup
+
+let message1 = document.querySelector(".login");
+let dialog1 = document.querySelector(".login-popup");
+let check = true;
+
+message1.addEventListener("click", () => {
+    if (check) {
+        dialog1.show();
+        dialog2.style.visibility = "hidden";
+        dialog.style.visibility = "hidden";
+        dialog3.style.visibility = "hidden";
+        dialog1.style.visibility = "visible";
+        check = false;
+    } else {
+        dialog1.style.visibility = "hidden";
+        check = true;
+    }
+
+});
+
+
+
+// for signIn popup
+
+let message2 = document.querySelector(".signIn");
+let dialog2 = document.querySelector("#signIn-popup")
+message2.addEventListener("click", () => {
+    dialog.style.visibility = "hidden";
+    dialog1.style.visibility = "hidden";
+    dialog3.style.visibility = "hidden";
+
+    dialog2.show();
+    dialog2.style.visibility = "visible";
+});
+
+
+
+
+// for signUp popup
+
+let message3 = document.querySelector(".signUp");
+let dialog3 = document.querySelector("#signUp-popup")
+message3.addEventListener("click", () => {
+    dialog.style.visibility = "hidden";
+    dialog1.style.visibility = "hidden";
+    dialog2.style.visibility = "hidden";
+
+    dialog3.show();
+    dialog3.style.visibility = "visible";
+
+});
+
+

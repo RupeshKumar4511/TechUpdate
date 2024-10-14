@@ -19,14 +19,14 @@ html,body{
 
 .navbar-content {
   display: inline-block;
-  height: 12vh;
+  height: 10.8vh;
   width: 50vw;
 }
 
 .logo-image {
   border-radius: 50%;
   margin-left: 3%;
-  margin-top: 1.6%;
+  margin-top: 1.2%;
   float: left;
 
 }
@@ -36,7 +36,7 @@ html,body{
 .nav-elements {
   float: left;
   list-style: none;
-  margin-top: 3.8%;
+  margin-top: 3.4%;
   margin-right: 2%;
   margin-left: 8%;
   font-size: 1.3em;
@@ -53,7 +53,7 @@ a:hover {
 }
 
 .nav-search-login-elements {
-  height: 12vh;
+  height: 10.8vh;
   width: 50vw;
   float: right;
 
@@ -61,13 +61,14 @@ a:hover {
 
 
 .search {
-  margin-top: 3%;
+  margin-top: 2.5%;
   margin-left: 28%;
   height: 6vh;
   width: 18vw;
   border:2px solid grey;
   font-size:1rem;
   border-radius:5px;
+ 
 }
 
 
@@ -77,6 +78,8 @@ a:hover {
   width: 5vw;
   border:1.5px solid grey;
   border-radius:5px;
+  background-color:greenyellow;
+  cursor: pointer;
 }
 
 .btn-sm:hover {
@@ -84,13 +87,14 @@ a:hover {
   color: white;
 }
 
+
 .login {
 }
 
 .login img {
   margin-left: 15%;
   position:relative;
-  top:13%;
+  top:12%;
 }
 
 
@@ -99,7 +103,7 @@ a:hover {
 }
 .slider {
   display: flex;
-  margin-top:12vh;
+  margin-top:10.8vh;
   width: 100vw;
   aspect-ratio: 16/5;
   z-index:2;
@@ -121,6 +125,13 @@ a:hover {
   padding-top:1vh;
   font-size:2rem;
   
+}
+
+.latest-updates h3{
+  background-image:url("../Image/text-image.jpeg");
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
 }
 .content {
   display:flex;
@@ -165,7 +176,7 @@ a:hover {
 }
 
 .content-box2 button{
-  margin-top:5vh;
+  margin-top:8vh;
   margin-left:6vw;
   height:7vh;
   width:15vw;
@@ -196,6 +207,144 @@ a:hover {
   height:50vh;
   width:26.7vw;
 }
+
+
+
+
+
+.popup{
+  border :1px solid grey;
+  border-radius:10px;
+  background-color:#F5F5F5;
+  margin-top:20vh;
+  padding-left:3vw;
+  margin-left:30vw; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index:2;
+  position:fixed;
+  
+}
+.popup-box{
+  padding-top:1vh;
+  
+}
+
+
+.cross-icon{
+  margin-left:30vw;
+  padding-right:0.5vw;
+  height:6vh;
+}
+
+form{
+  margin:0px;
+  padding:0px;
+  
+}
+
+.input-heading{
+  margin-top: 4%;
+}
+
+.input-style{
+  width:30vw;
+  height:5vh;
+  font-size:1em;
+  
+}
+.sub-btn{
+  margin-top: 5%;
+  height:5vh;
+  font-size:1em;
+  width:10vw;
+  background-color:#88D66C;
+  margin-bottom:8vh;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+
+.form-control.error small{
+  color:red;
+  
+}
+
+
+.login-popup{
+  border :1px solid grey;
+  border-radius: 5px;
+  background-color:#F5F5F5;
+  margin-top:10.8vh;
+  margin-left:86.6vw; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index:2;
+  width:12vw;
+  height:10vh;
+  position:fixed;
+  background-color: #d8d4d4cb;
+
+}
+
+.signIn{
+  padding-bottom: 0.4vh;
+  padding-top:1.3vh;
+  
+}
+.signIn a{
+  color:black;
+  font-size:18px;
+  padding-left:4vw; 
+  padding-bottom: 0.4vh;
+  
+  
+}
+.signUp{
+  padding-bottom: 0.4vh;
+}
+.signUp a{
+  padding-left:4vw; 
+  padding-top:1.3vh;
+  color:black;
+  font-size:18px;
+  
+}
+
+.signIn :hover{
+  display: block;
+  background-color: azure;
+}
+.signUp :hover{
+  display: block;
+  background-color: azure;
+}
+
+
+.input-style2{
+  width:20vw;
+  height:5vh;
+  font-size:1em;
+  
+  
+}
+
+ .form-control a{
+  color:blue;
+ }
+
+ .send-otp{
+  margin-top: 3%;
+  height:5vh;
+  font-size:1em;
+  width:10vw;
+  background-color:#88D66C;
+  border-radius:10px;
+  cursor:pointer;
+
+ }
+
+ #verify-otp{
+  visibility:hidden;
+ }
 
 
 .footer {
@@ -254,46 +403,3 @@ footer-box1{
   height:8vh;
 }
 
-
-
-.popup{
-  border :1px solid grey;
-  border-radius:10px;
-  background-color:#F5F5F5;
-  margin-top:20vh;
-  padding-left:3vw;
-  margin-left:30vw; 
-  z-index:2;
-  
-}
-.contact-us{
-  padding-top:1vh;
-  
-}
-
-
-.cross-icon{
-  margin-left:30vw;
-  padding-right:0.5vw;
-  height:6vh;
-}
-
-form{
-  margin:0px;
-  padding:0px;
-  
-}
-
-input{
-  
-  margin-top:5%;
-  width:30vw;
-  height:5vh;
-  font-size:1em;
-}
-.contact-sub{
-  width:10vw;
-  background-color:#88D66C;
-  margin-bottom:8vh;
-  border-radius:10px;
-}
