@@ -117,17 +117,12 @@ const otp = document.getElementById("otp");
 const otpVerify = document.getElementById("otp-verify");
 
 
-// user_password = ADCB39839483E9D003F0BF93DA7033811346
-// server = smtp.elasticemail.com
+
 // port = 2525
 // let otp_value;
 // function sendOTP(gmail) {
 //     otp_value = Math.floor(1000 + Math.random() * 9000);
-//     Email.send({
-//         SecureToken: "9f2c8f84-8220-4274-8f5b-ad470c417442",
-//         To: gmail,
-//         From: 'herosaini67@gmail.com',
-//         Subject: "Welcome to TechUpdate",
+//     Email.send({,
 //         Body: `<h2>Your otp is ${otp_value}</h2>`,
 //     }).then(
 //         message => {
@@ -208,5 +203,3 @@ document.getElementById("signUp-sub").addEventListener("click", (e) => {
 
 
 
-// gmail smtp
-// app_password = "ovpzoznynhmlvqlg"
