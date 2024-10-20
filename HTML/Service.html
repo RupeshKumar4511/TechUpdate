@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechUpdate</title>
+    <link rel="stylesheet" href="../CSS/Service.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-content">
+        <img src="../Image/logo.png" alt="" height="53vh" class="logo-image" />
+        <li class="nav-elements"><a href="./index.html">Home</a></li>
+        <li class="nav-elements"><a href="./About.html">About</a></li>
+        <li class="nav-elements">
+          <a href="../HTML/Service.html">Services</a>
+        </li>
+        <li class="nav-elements">
+          <a href="#home" id="contact">Contact Us</a>
+        </li>
+      </ul>
+
+      <div class="nav-search-login-elements">
+        <input type="text" placeholder="   Search" class="search" />
+        <button class="btn-sm">Search</button>
+        <!-- <a href="#" class="login"><img src="../Image/user.png" alt="login-image" height="30vh"
+        /></a> -->
+      </div>
+    </nav>
+
+    <dialog class="popup" id="contact-popup">
+      <div class="popup-box">
+        <div>
+          <a href=""
+            ><img src="../Image/cross.png" alt="cross icon" class="cross-icon"
+          /></a>
+        </div>
+
+        <form id="form">
+          <h2>Contact Us</h2>
+          <div class="form-control">
+            <div class="input-heading"><label for="name">Name</label></div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-style"
+            /><br /><small></small>
+          </div>
+
+          <div>
+            <div class="input-heading"><label for="email">Email ID</label></div>
+            <input type="email" name="email" id="email" class="input-style" />
+            <br />
+            <small id="errormsg"></small>
+          </div>
+
+          <div class="form-control">
+            <div class="input-heading">
+              <label for="phoneNo">Phone No </label>
+            </div>
+            <input
+              type="text"
+              name="phoneNo"
+              id="phoneNo"
+              class="input-style"
+            />
+            <br />
+
+            <small id="errormsg"></small>
+          </div>
+
+          <input type="submit" class="sub-btn" id="contact-sub" />
+        </form>
+      </div>
+    </dialog>
+
+    <div class="container">
+      <div class="menu">
+        <h3 class="Updates-heading">Programming Updates</h3>
+        <ul class="list-item">
+          <a href=""><li>JavaScript</li></a>
+          <a href=""><li>Java</li></a>
+          <a href=""><li>Python</li></a>
+          <a href=""><li>HTML/CSS</li></a>
+          <a href=""><li>PHP</li></a>
+          <a href=""><li>SQL</li></a>
+        </ul>
+
+        <h3  class="Updates-heading">Cloud Computing Updates</h3>
+        <ul class="list-item">
+          <a href=""><li>AWS</li></a>
+          <a href=""><li>Microsoft Azure</li></a>
+          <a href=""><li>Google Cloud</li></a>
+        </ul>
+
+        <h3  class="Updates-heading">AI/ML Updates</h3>
+        <ul class="list-item">
+          <a href=""><li>Artificial Intelligence</li></a>
+          <a href=""><li>Machine Learning</li></a>
+        </ul>
+
+        <h3  class="Updates-heading">Blockchain Updates</h3>
+        <ul class="list-item">
+          <a href=""><li>Smart Contract</li></a>
+          <a href=""><li>Crypto Currency</li></a>
+          
+        </ul>
+      </div>
+      <div class="content">
+        <h3 class="content-heading">JavaScript Updates</h3>
+
+        <div class="latest-updates">
+          
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-box1">
+        <img src="../Image/logo.png" alt="" />
+      </div>
+
+      <div class="footer-box2">
+        <h2>About Us</h2>
+        <p>
+          TechUpdate is a website dedicated to providing valuable and
+          informative content about some popular technologies...
+          <a href="./About.html" class="read-more"><span>Read more</span> </a>
+        </p>
+      </div>
+
+      <div class="footer-box3">
+        <h2>Follow Us</h2>
+        <a href="https://github.com/Rupeshkumar4511" target="_blank"
+          ><img src="../Image/github.png" alt="github icon" id="github-icon"
+        /></a>
+        <a href="https://linkedin.com/in/rupesh-kumar-7349392a4" target="_blank"
+          ><img src="../Image/linkedIn.png" alt="linked icon"
+        /></a>
+        <a href="https://www.instagram.com/rupeshsahani4511" target="_blank"
+          ><img src="../Image/instagram.png" alt="instagram icon"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="../JS/JsUpdate.js"></script>
+    <script src="../JS/AboutServiceContact.js"></script>
+    <script src="../JS/contactAndLogin.js"></script>
+  </body>
+</html>
