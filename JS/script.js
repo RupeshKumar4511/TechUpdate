@@ -29,7 +29,7 @@ function changeSlide() {
 let message = document.querySelector("#contact");
 let dialog = document.querySelector("#contact-popup");
 message.addEventListener("click", () => {
-    
+
     dialog1.style.visibility = "hidden";
     dialog2.style.visibility = "hidden";
     dialog3.style.visibility = "hidden";
@@ -94,5 +94,20 @@ message3.addEventListener("click", () => {
     dialog3.style.visibility = "visible";
 
 });
+
+
+// for signOut 
+let signout_message = document.querySelector('.signout');
+signout_message.addEventListener('click', () => {
+    alert("Sign Out Successfully");
+    signout_message.style.display = "none";
+    document.querySelector('.user').style.display = "none";
+    message2.style.display = "block";
+    document.querySelector('.signUp').style.display = "block";
+
+
+
+});
+
 
 
