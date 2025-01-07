@@ -22,8 +22,8 @@
       </ul>
 
       <div class="nav-search-login-elements">
-        <input type="text" placeholder="   Search" class="search" />
-        <button class="btn-sm">Search</button>
+        <input type="text" placeholder="Search here" class="search" />
+        <button class="btn-sm" id="search-btn" >Search</button>
         <!-- <a href="#" class="login"><img src="../Image/user.png" alt="login-image" height="30vh"
         /></a>  -->
       </div>
@@ -32,8 +32,7 @@
     <dialog class="popup" id="contact-popup">
       <div class="popup-box">
         <div>
-          <a href=""
-            ><img src="../Image/cross.png" alt="cross icon" class="cross-icon"
+          <a href="#" id="link2"><img src="../Image/cross.png" alt="cross icon" class="cross-icon"
           /></a>
         </div>
 
@@ -46,12 +45,13 @@
               name="name"
               id="name"
               class="input-style"
+              autocomplete="off"
             /><br /><small></small>
           </div>
 
           <div>
             <div class="input-heading"><label for="email">Email ID</label></div>
-            <input type="email" name="email" id="email" class="input-style" />
+            <input type="email" name="email" id="email" class="input-style" autocomplete="off"/>
             <br />
             <small id="errormsg"></small>
           </div>
@@ -65,6 +65,7 @@
               name="phoneNo"
               id="phoneNo"
               class="input-style"
+              autocomplete="off"
             />
             <br />
 
@@ -80,30 +81,30 @@
       <div class="menu">
         <h3 class="Updates-heading">Programming Updates</h3>
         <ul class="list-item">
-          <a href="" id="js"><li>JavaScript</li></a>
-          <a href="" id="java"><li>Java</li></a>
-          <a href="" id="python"><li>Python</li></a>
-          <a href="" id="html_css"><li>HTML/CSS</li></a>
-          <a href="" id="php"><li>PHP</li></a>
+          <a href="#" id="js"><li>JavaScript</li></a>
+          <a href="#" id="java"><li>Java</li></a>
+          <a href="#" id="python"><li>Python</li></a>
+          <a href="#" id="html_css"><li>HTML/CSS</li></a>
+          <a href="#" id="php"><li>PHP</li></a>
         </ul>
 
         <h3  class="Updates-heading">Cloud Computing Updates</h3>
         <ul class="list-item">
-          <a href="" id="aws"><li>AWS</li></a>
-          <a href="" id="azure"><li>Microsoft Azure</li></a>
-          <a href="" id="google_cloud"><li>Google Cloud</li></a>
+          <a href="#" id="aws"><li>AWS</li></a>
+          <a href="#" id="azure"><li>Microsoft Azure</li></a>
+          <a href="#" id="google_cloud"><li>Google Cloud</li></a>
         </ul>
 
         <h3  class="Updates-heading">AI/ML Updates</h3>
         <ul class="list-item">
-          <a href="" id="ai"><li>Artificial Intelligence</li></a>
-          <a href="" id="ml"><li>Machine Learning</li></a>
+          <a href="#" id="ai"><li>Artificial Intelligence</li></a>
+          <a href="#" id="ml"><li>Machine Learning</li></a>
         </ul>
 
         <h3  class="Updates-heading">Blockchain Updates</h3>
         <ul class="list-item">
-          <a href="" id="smart_contract"><li>Smart Contract</li></a>
-          <a href="" id="crypto_currency"><li>Crypto Currency</li></a>
+          <a href="#" id="smart_contract"><li>Smart Contract</li></a>
+          <a href="#" id="crypto_currency"><li>Crypto Currency</li></a>
           
         </ul>
       </div>
@@ -246,6 +247,7 @@
 
     <script src="../JS/JsUpdate.js"></script>
     <script src="../JS/AboutServiceContact.js"></script>
-    <script src="../JS/contactAndLogin.js"></script>
+    <script src="../JS/contact_search.js"></script>
+    <script src="../JS/Login.js"></script>
   </body>
 </html>

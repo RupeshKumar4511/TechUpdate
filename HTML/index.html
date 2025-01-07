@@ -20,8 +20,8 @@
     </ul>
 
     <div class="nav-search-login-elements">
-      <input type="text" placeholder="   Search here" class="search" />
-      <button class="btn-sm">Search</button> 
+      <input type="text" placeholder="Search here" class="search" />
+      <button class="btn-sm" id="search-btn" >Search</button> 
       <!-- <a href="#" id="user"></a> -->
       <a href="#" class="login"><img src="../Image/user.png" alt="login-image" class="login-image" height="30vh" /></a>
     </div>
@@ -61,7 +61,7 @@
   <dialog class="popup" id="signIn-popup">
     <div class="popup-box" id="signIn-box">
       <div>
-        <a href=""><img src="../Image/cross.png" alt="cross icon" class="cross-icon" /></a>
+        <a href="#" id="link"><img src="../Image/cross.png" alt="cross icon" class="cross-icon" /></a>
       </div>
 
       <form id="form2">
@@ -71,7 +71,7 @@
           <div class="input-heading">
             <label for="username">User Name</label>
           </div>
-          <input type="text" name="username" id="username" class="input-style" /><br /><small></small>
+          <input type="text" name="username" id="username" class="input-style" autocomplete="off"/><br /><small></small>
         </div>
 
         <div class="form-control">
@@ -92,7 +92,7 @@
   <dialog class="popup" id="signUp-popup">
     <div class="popup-box" id="signUp-box">
       <div>
-        <a href=""><img src="../Image/cross.png" alt="cross icon" class="cross-icon" /></a>
+        <a href="#" id="link"><img src="../Image/cross.png" alt="cross icon" class="cross-icon" /></a>
       </div>
 
       <form id="form3" method="post">
@@ -100,7 +100,7 @@
 
         <div>
           <div class="input-heading"><label for="gmail">Email ID</label></div>
-          <input type="email" name="gmail" id="gmail" class="input-style" autocomplete="on" />
+          <input type="email" name="gmail" id="gmail" class="input-style" autocomplete="off" />
           <br />
           <small id="msg"></small>
         </div>
@@ -129,7 +129,7 @@
             <label for="OTP">Enter OTP that sent to your Email</label>
           </div>
           <input type="text" name="otp" id="otp" autocomplete="off" class="input-style2" />
-          <!-- <a href="">Resend OTP</a> -->
+          <!-- <a href="#" id="link">Resend OTP</a> -->
 
           <br />
 
@@ -145,7 +145,7 @@
   <dialog class="popup" id="signUp2-popup">
     <div class="popup-box" id="signUp2-box">
       <div>
-        <a href=""><img src="../Image/cross.png" alt="cross icon" class="cross-icon" /></a>
+        <a href="#" id="link"><img src="../Image/cross.png" alt="cross icon" class="cross-icon" /></a>
       </div>
 
       <form id="form4">
@@ -155,7 +155,7 @@
           <div class="input-heading">
             <label for="setusername">Create User Name</label>
           </div>
-          <input type="text" name="setusername" id="setusername" class="input-style" /><br /><small></small>
+          <input type="text" name="setusername" id="setusername" class="input-style" autocomplete="off"/><br /><small></small>
         </div>
 
         <div class="form-control">
@@ -176,7 +176,7 @@
   <dialog class="popup" id="contact-popup">
     <div class="popup-box">
       <div>
-        <a href=""><img src="../Image/cross.png" alt="cross icon" class="cross-icon" /></a>
+        <a href="#" id="link"><img src="../Image/cross.png" alt="cross icon" class="cross-icon" /></a>
       </div>
 
       <form id="form">
@@ -293,8 +293,9 @@
           alt="instagram icon" /></a>
     </div>
   </footer>
-  <script src="../JS/contactAndLogin.js"></script>
+  <script src="../JS/Login.js"></script>
   <script src="../JS/script.js"></script>
+  <script src="../JS/contact_search.js"></script>
 </body>
 
 </html>

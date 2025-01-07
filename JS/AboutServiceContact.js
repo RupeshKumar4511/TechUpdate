@@ -6,3 +6,11 @@ message.addEventListener("click", () => {
     dialog.show();
 
 });
+
+
+const link2 = document.getElementById("link2");
+link2.addEventListener("click", () => {
+    dialog.style.visibility = "hidden";
+    
+  
+  });

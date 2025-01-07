@@ -109,5 +109,20 @@ signout_message.addEventListener('click', () => {
 
 });
 
+let dialog5 =  document.querySelector("#signUp2-popup");
+let dialog7 = document.querySelector("#verify-otp");
+const link = Array.from(document.querySelectorAll("#link"));
+for(let i of link){
+i.addEventListener("click", () => {
+    dialog.style.visibility = "hidden";
+    dialog1.style.visibility = "hidden";
+    dialog2.style.visibility = "hidden";
+    dialog3.style.visibility = "hidden";
+    dialog7.style.visibility = "hidden";
+    dialog5.style.visibility = "hidden";
+  
+  });
+}
+
 
 

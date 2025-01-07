@@ -59,7 +59,7 @@ document.querySelector("#form").addEventListener('submit', (e) => {
         }
         else {
             errorMsg(fullname, "Name must contains atleast 3 characters and maximum 16 \n characters(including: alphabets,space and underscore)");
-            isValid= false;
+            isValid = false;
 
         }
     }
@@ -96,33 +96,34 @@ document.querySelector("#form").addEventListener('submit', (e) => {
     }
 
 
-    if(isValid){
-       
+    if (isValid) {
+
 
 
         const formData = new FormData(document.getElementById('form'));
 
-        
+
         fetch('../PHP/contact.php', {
             method: 'POST',
             body: formData
         })
-        .then(response => response.text()) 
-        .then(() => {
-            alert("form data submitted Succesfully."); 
-            document.getElementById('form').reset(); 
-             
-        })
-        .catch(error => {
-            console.error('Error:', error);
-            alert('There was an error sending the email.');
-        });
-    }  
-        
-        
-    
+            .then(response => response.text())
+            .then(() => {
+                alert("form data submitted Succesfully.");
+                document.getElementById('form').reset();
+
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('There was an error sending the email.');
+            });
+    }
+
+
+
 
 });
+
 
 
 
