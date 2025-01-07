@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechUpdate</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./About.css" />
+    <link rel="stylesheet" href="./media1.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-content">
+        <img src="./logo1.png" alt="" height="53vh" width="53vw"   class="logo-image" />
+        <li class="nav-elements"><a href="./index.html">Home</a></li>
+        <li class="nav-elements"><a href="#home">About</a></li>
+        <li class="nav-elements"><a href="./Service.html">Services</a></li>
+        <li class="nav-elements">
+          <a href="#" id="contact">Contact Us</a>
+        </li>
+      </ul>
+
+      <div class="nav-search-login-elements">
+        <input type="text" placeholder="Search here" class="search" />
+        <button class="btn-sm" id="search-btn" >Search</button>
+        <!-- <a href="#" class="login"><img src="../Image/user.png" alt="login-image" height="30vh" 
+        /></a> -->
+        <button class="caret"><img src="./line.png" alt=""></button>
+      </div>
+    </nav>
+
+    <dialog class="popup" id="contact-popup">
+      <div class="popup-box">
+        <div>
+          <a href="#" id="link2"
+            ><img src="./cross.png" alt="cross icon" class="cross-icon"
+          /></a>
+        </div>
+        <form id="form">
+          <h2>Contact Us</h2>
+          <div class="form-control">
+            <div class="input-heading"><label for="name">Name</label></div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-style"
+            /><br><small></small>
+          </div>
+
+          <div>
+            <div class="input-heading"><label for="email">Email ID</label></div>
+            <input type="email" name="email" id="email" class="input-style" />
+            <br>
+            <small id="errormsg"></small>
+          </div>
+
+          <div class="form-control">
+            <div class="input-heading">
+              <label for="phoneNo">Phone No </label>
+            </div>
+            <input
+              type="text"
+              name="phoneNo"
+              id="phoneNo"
+              class="input-style"
+            />
+            <br>
+
+            <small id="errormsg"></small>
+          </div>
+
+          <input type="submit" class="sub-btn" id="contact-sub"/>
+        </form>
+      </div>
+    </dialog>
+
+    <div class="About-content">
+      <h1>About Us</h1>
+      <p class="About-subheading-1 About-font">
+        Welcome to TechUpdate, a website dedicated to providing valuable and
+        informative content about some popular technologies. Our mission is to
+        keep you informed and empowered with cutting-edge insights, trends, and
+        news in the fast-evolving tech world.
+      </p>
+
+      <p class="About-subheading-2 About-font">
+        At TechUpdate, we're a team of passionate tech enthusiasts and
+        professionals with a shared love for all things technology. Whether it's
+        groundbreaking innovations, software advancements, hardware releases, or
+        futuristic tech predictions, we cover it all.
+      </p>
+
+      <h3 class="About-font"><b>Our site delivers :</b></h3>
+
+      <ul class="About-subheading-3 About-font">
+        <li>
+          <b>Tech News : </b>Stay up-to-date with the latest happenings in the
+          tech industry, from product launches to company updates.
+        </li>
+        <li>
+          <b>Industry Insights : </b> Analysis and reports on emerging
+          technologies and their impact on industries and everyday life.
+        </li>
+      </ul>
+
+      <p class="About-subheading-4 About-font">
+        We believe technology is the key to a brighter, more connected future.
+        Our goal is to bridge the gap between complex technological advancements
+        and everyday users, helping you stay ahead of the curve.
+      </p>
+
+      <p class="About-subheading-5 About-font">
+        Thank you for joining us on this journey to explore the fascinating
+        world of technology. We're excited to have you here!
+      </p>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-box1">
+        <img src="./logo1.png" alt="" />
+      </div>
+
+      <div class="footer-box2">
+        <h2>About Us</h2>
+        <p>
+          TechUpdate is a website dedicated to providing valuable and
+          informative content about some popular technologies...
+          <a href="" class="read-more"><span>Read more</span> </a>
+        </p>
+        <h4 class="copyright">Copyright &copy 2024 TechUpdate All Rights Reserved</h4>
+      </div>
+
+      <div class="footer-box3">
+        <h2>Follow Us</h2>
+        <a href="https://github.com/Rupeshkumar4511" target="_blank"
+          ><img src="./github.png" alt="github icon" id="github-icon"
+        /></a>
+        <a href="https://linkedin.com/in/rupesh-kumar-7349392a4" target="_blank"
+          ><img src="./linkedIn.png" alt="linked icon"
+        /></a>
+        <a href="https://www.instagram.com/rupeshsahani4511" target="_blank"
+          ><img src="./instagram.png" alt="instagram icon"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="./AboutServiceContact.js"></script>
+    <script src="./contact_search.js"></script>
+    <script src="./media2.js"></script>
+    
+  </body>
+</html>

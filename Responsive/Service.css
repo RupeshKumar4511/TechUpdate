@@ -1,0 +1,176 @@
+.container {
+  margin-top: 10.8vh;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+}
+
+.menu {
+  height: 90vh;
+  width: 23vw;
+  /* background-color: #d1e9f6; */
+  background-image:-webkit-linear-gradient(left,aqua,yellow) !important;
+
+  overflow-y: scroll;
+  padding-bottom: 28px;
+  padding-top: 7 px;
+}
+
+.Updates-heading {
+  padding-top: 4vh;
+  padding-bottom: 1vh;
+  font-size: 19px;
+  padding-left: 1vw;
+  font-family: sans-serif;
+}
+
+.list-item {
+  list-style: none;
+  font-size: 18px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.list-item li {
+  padding-top:3.5px;
+  padding-bottom: 4px;
+  padding-left: 40px;
+  color: black;
+}
+
+.list-item li:hover {
+  background-color: #41B3A2;
+}
+
+.list-item li:active {
+  background-color: green;
+}
+
+.content {
+  height: 90vh;
+  width: 80vw;
+  background-color: #f5f5df;
+  overflow-y:scroll;
+  overflow-x:scroll;
+  
+  
+}
+
+.content-heading {
+  text-align: center;
+  padding-bottom: 5vh;
+  background-image:url("./text-image.jpeg");
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
+  font-size:46px;
+}
+
+.content div{
+  padding-left:50px;
+  padding-top:20px;
+  padding-right:20px;
+  
+
+}
+
+.content1{
+  z-index:1;
+  position:relative;
+  top:2vh;
+  bottom:31vh;
+}
+
+.content2{
+  z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+  
+}
+
+
+.content3{
+  z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+}
+
+.content4{
+  z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+}
+
+
+.content5{
+ z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+}
+
+.content6{
+ z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+}
+
+
+.content7{
+ z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+}
+
+.content8{
+ z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+}
+
+
+.content9{
+ z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+}
+
+.content10{
+ z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+}
+
+
+.content11{
+ z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+}
+
+.content12{
+ z-index:-1;
+  position:absolute;
+  top:11vh;
+  overflow-x:auto;
+  bottom: 0px;
+}
+
+

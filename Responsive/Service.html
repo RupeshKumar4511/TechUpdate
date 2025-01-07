@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechUpdate</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Service.css" />
+    <link rel="stylesheet" href="./media1.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-content">
+        <img src="./logo1.png" alt="" height="53vh" width="53vw" class="logo-image" />
+        <li class="nav-elements"><a href="./index.html">Home</a></li>
+        <li class="nav-elements"><a href="./About.html">About</a></li>
+        <li class="nav-elements">
+          <a href="./Service.html">Services</a>
+        </li>
+        <li class="nav-elements">
+          <a href="#home" id="contact">Contact Us</a>
+        </li>
+      </ul>
+
+      <div class="nav-search-login-elements">
+        <input type="text" placeholder="Search here" class="search" />
+        <button class="btn-sm" id="search-btn">Search</button>
+        <button class="caret"><img src="./line.png" alt=""></button>
+      </div>
+    </nav>
+
+    <dialog class="popup" id="contact-popup">
+      <div class="popup-box">
+        <div>
+          <a href="#" id="link2"
+            ><img src="./cross.png" alt="cross icon" class="cross-icon"
+          /></a>
+        </div>
+
+        <form id="form">
+          <h2>Contact Us</h2>
+          <div class="form-control">
+            <div class="input-heading"><label for="name">Name</label></div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-style"
+            /><br /><small></small>
+          </div>
+
+          <div>
+            <div class="input-heading"><label for="email">Email ID</label></div>
+            <input type="email" name="email" id="email" class="input-style" />
+            <br />
+            <small id="errormsg"></small>
+          </div>
+
+          <div class="form-control">
+            <div class="input-heading">
+              <label for="phoneNo">Phone No </label>
+            </div>
+            <input
+              type="text"
+              name="phoneNo"
+              id="phoneNo"
+              class="input-style"
+            />
+            <br />
+
+            <small id="errormsg"></small>
+          </div>
+
+          <input type="submit" class="sub-btn" id="contact-sub" />
+        </form>
+      </div>
+    </dialog>
+
+    <div class="container">
+      <div class="menu">
+        <h3 class="Updates-heading">Programming Updates</h3>
+        <ul class="list-item">
+          <a href="" id="js"><li>JavaScript</li></a>
+          <a href="" id="java"><li>Java</li></a>
+          <a href="" id="python"><li>Python</li></a>
+          <a href="" id="html_css"><li>HTML/CSS</li></a>
+          <a href="" id="php"><li>PHP</li></a>
+        </ul>
+
+        <h3  class="Updates-heading">Cloud Computing Updates</h3>
+        <ul class="list-item">
+          <a href="" id="aws"><li>AWS</li></a>
+          <a href="" id="azure"><li>Microsoft Azure</li></a>
+          <a href="" id="google_cloud"><li>Google Cloud</li></a>
+        </ul>
+
+        <h3  class="Updates-heading">AI/ML Updates</h3>
+        <ul class="list-item">
+          <a href="" id="ai"><li>Artificial Intelligence</li></a>
+          <a href="" id="ml"><li>Machine Learning</li></a>
+        </ul>
+
+        <h3  class="Updates-heading">Blockchain Updates</h3>
+        <ul class="list-item">
+          <a href="" id="smart_contract"><li>Smart Contract</li></a>
+          <a href="" id="crypto_currency"><li>Crypto Currency</li></a>
+          
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="content1">
+          <h1 class="content-heading">JavaScript Updates</h1>
+           <p class="box1"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/trending/javascript" target="_blank">Popular Github Repositories</a></h3>
+           
+        </div>
+        
+
+       <div class="content2">
+          <h3 class="content-heading">Java Updates</h3>
+           <p class="box2"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/trending/java" target="_blank">Popular Github Repositories</a></h3>
+        </div>
+
+
+        <div class="content3">
+          <h3 class="content-heading">Python Updates</h3>
+           <p class="box3"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/trending/python" target="_blank">Popular Github Repositories</a></h3>
+        </div>
+        
+
+       <div class="content4">
+          <h3 class="content-heading">HTML/CSS Updates</h3>
+           <p class="box4"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/trending/html" target="_blank">Popular Github Repositories</a></h3>
+        </div>
+
+
+        <div class="content5">
+          <h1 class="content-heading">PHP Updates</h1>
+           <p class="box5"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/trending/php" target="_blank">Popular Github Repositories</a></h3>
+        </div>
+        
+
+       <div class="content6">
+          <h3 class="content-heading">AWS Updates</h3>
+           <p class="box6"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/orgs/aws-solutions/repositories" target="_blank">Popular Github Repositories</a></h3>
+        </div>
+
+
+        <div class="content7">
+          <h1 class="content-heading">Microsoft Azure Updates</h1>
+           <p class="box7"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/azure" target="_blank">Popular Github Repositories</a></h3>
+        </div>
+        
+
+       <div class="content8">
+          <h3 class="content-heading">Google Cloud Updates</h3>
+           <p class="box8"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/googlecloudplatform" target="_blank">Popular Github Repositories</a></h3>
+        </div>
+
+
+        <div class="content9">
+          <h1 class="content-heading">Artificial Intelligence Updates</h1>
+           <p class="box9"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/MamczurMiroslaw/best_ai_knowledge_repos" target="_blank">Popular Github Repositories</a></h3>
+        </div>
+        
+
+       <div class="content10">
+          <h3 class="content-heading">Machine Learning Updates</h3>
+           <p class="box10"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/topics/machine-learning" target="_blank">Popular Github Repositories</a></h3>
+
+        </div>
+
+        <div class="content11">
+          <h1 class="content-heading">Smart Contract Updates</h1>
+           <p class="box11"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/smartcontractkit" target="_blank">Popular Github Repositories</a></h3>
+        </div>
+        
+
+       <div class="content12">
+          <h3 class="content-heading">Crypto Currency Updates</h3>
+           <p class="box12"></p>
+           <br>
+           <h3 style="padding-bottom: 25px;"><a href="https://github.com/topics/cryptocurrency-tracker" target="_blank">Popular Github Repositories</a></h3>
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-box1">
+        <img src="./logo1.png" alt="" />
+      </div>
+
+      <div class="footer-box2">
+        <h2>About Us</h2>
+        <p>
+          TechUpdate is a website dedicated to providing valuable and
+          informative content about some popular technologies...
+          <a href="./About.html" class="read-more"><span>Read more</span> </a>
+        </p>
+        <h4 class="copyright">Copyright &copy 2024 TechUpdate All Rights Reserved</h4>
+      </div>
+
+      <div class="footer-box3">
+        <h2>Follow Us</h2>
+        <a href="https://github.com/Rupeshkumar4511" target="_blank"
+          ><img src="./github.png" alt="github icon" id="github-icon"
+        /></a>
+        <a href="https://linkedin.com/in/rupesh-kumar-7349392a4" target="_blank"
+          ><img src="./linkedIn.png" alt="linked icon"
+        /></a>
+        <a href="https://www.instagram.com/rupeshsahani4511" target="_blank"
+          ><img src="./instagram.png" alt="instagram icon"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="./JsUpdate.js"></script>
+    <script src="./AboutServiceContact.js"></script>
+    <script src="./contact_search.js"></script>
+    <script src="./media2.js"></script>
+
+  </body>
+</html>

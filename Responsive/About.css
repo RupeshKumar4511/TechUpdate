@@ -1,0 +1,47 @@
+.About-content {
+  height: 150vh;
+  padding-top: 20vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  background-color: #f5f5df;
+}
+
+.About-font {
+  font-family: sans-serif;
+  font-weight: 400;
+  word-spacing: 0.2vw;
+  line-height: 1.5;
+}
+
+.About-subheading-1 {
+  margin-top: 2vh;
+  font-size: 1.2rem;
+}
+
+.About-subheading-2 {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  font-size: 1.2rem;
+}
+
+.About-subheading-3 {
+  list-style: inside;
+  font-size: 1.2rem;
+  padding-bottom: 1vh;
+}
+
+.About-subheading-3 li {
+  font-size: 1.15rem;
+  padding-top: 1vh;
+}
+
+.About-subheading-4 {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  font-size: 1.2rem;
+}
+.About-subheading-5 {
+  margin-top: 8vh;
+  font-size: 1.2rem;
+}
+

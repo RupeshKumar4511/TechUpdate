@@ -1,0 +1,215 @@
+.login {
+}
+
+.login img {
+  margin-left: 15%;
+  position:relative;
+  top:12%;
+} 
+
+
+.container{
+
+}
+
+.slider {
+  display: flex;
+  margin-top:10.8vh;
+  width: 100vw;
+  aspect-ratio :16/5;
+  z-index:2;
+}
+
+.slider img {
+  flex: 0 0 100vw;
+  width:100vw;
+  object-fit: cover;
+}
+
+
+
+
+.latest-updates {
+  width: 100vw;
+  height: 10vh;
+  background-color: #6EACDA;
+  color:white;
+  text-align:center;
+  padding-top:1vh;
+  font-size:2rem;
+  
+}
+
+.latest-updates h3{
+  padding-top:3.5px;
+  color:#FFE31A;
+}
+
+.card-container{
+  padding-top:3vh;
+  background-color:#f5f5df;
+  
+ 
+}
+
+.content {
+  display:flex;
+  width: 100vw;
+  height: 75vh;
+  background-color:#f5f5df;
+  
+}
+
+
+.card {
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 70vw;
+  height: 60vh;
+  margin:3%;
+  border-radius:5px;
+  
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img{
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  
+}
+
+.container1 {
+  padding: 2px 16px;
+  border-top-radius:5px;
+}
+
+
+
+
+
+
+.content-button{
+  
+  margin-left:42vw;  
+ 
+}
+.content-button button{
+  height:7vh;
+  width:15vw;
+  font-size:1rem;
+  background-color:transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border:1px solid grey;
+  border-radius:10px;
+  background:-webkit-linear-gradient(right,aqua,yellow) !important;
+  cursor:pointer;
+  margin-bottom:12vh;
+}
+
+
+.login-popup{
+  border :1px solid grey;
+  border-radius: 5px;
+  background-color:#F5F5F5;
+  margin-top:10.8vh;
+  margin-left:86.6vw; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index:100;
+  width:12vw;
+  height:10vh;
+  position:fixed;
+  background-color: #d8d4d4cb;
+
+}
+
+.signIn{
+  padding-bottom: 0.4vh;
+  padding-top:1.3vh;
+  z-index:3;
+  
+}
+.signIn a{
+  color:black;
+  font-size:18px;
+  padding-left:4vw; 
+  padding-bottom: 0.4vh;
+  
+  
+}
+.signUp{
+  padding-bottom: 0.4vh;
+}
+.signUp a{
+  padding-left:4vw; 
+  padding-top:1.3vh;
+  color:black;
+  font-size:18px;
+  
+}
+
+.signIn :hover{
+  display: block;
+  background-color: azure;
+}
+.signUp :hover{
+  display: block;
+  background-color: azure;
+}
+
+
+.signout :hover{
+  display:block;
+  background-color: azure;
+}
+
+
+.input-style2{
+  width:20vw;
+  height:5vh;
+  font-size:1em;
+  
+  
+}
+
+ .form-control a{
+  color:blue;
+ }
+
+ .send-otp{
+  margin-top: 3%;
+  height:5vh;
+  font-size:1em;
+  width:10vw;
+  background-color:#88D66C;
+  border-radius:10px;
+  cursor:pointer;
+  
+
+ }
+
+
+ #verify-otp{
+  visibility:hidden;
+ }
+
+
+ #view{
+  color:white;
+  margin-top:10px;
+  background-color:#4f75ff;
+  height: 5vh;
+  width: 5vw;
+  border: 1.5px solid #4f75ff;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+
+
+ #user{
+  padding-left:px;
+  color:white;
+ }

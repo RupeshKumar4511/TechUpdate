@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>TechUpdate</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./media1.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="navbar-content">
+      <img src="./logo1.png" alt="" height="53vh" width="53vw"   class="logo-image" />
+      <li class="nav-elements"><a href="#">Home</a></li>
+      <li class="nav-elements"><a href="./About.html">About</a></li>
+      <li class="nav-elements"><a href="./Service.html">Services</a></li>
+      <li class="nav-elements"><a href="#" id="contact">Contact Us</a></li>
+      <li class="nav-elements" id="more"><button href="#" class="login2">More</button></li>
+    </ul>
+
+    <div class="nav-search-login-elements">
+      
+      
+      <input type="text" placeholder="Search here" class="search" />
+      <button class="btn-sm" id="search-btn">Search</button> 
+      <!-- <a href="#" id="user"></a> -->
+      <a href="#" class="login"><img src="./user.png" alt="login-image" class="login-image" height="30vh" /></a>
+      <button class="caret"><img src="./line.png" alt="line"></button>
+    
+    </div>
+  </nav>
+
+  <dialog class="login-popup">
+    <div class="signIn" >
+      <a href="#">Sign In</a>
+
+    </div>
+    <div class="user" style="display: none;padding-bottom: 0.4vh;
+      padding-top:1.3vh;">
+      <a href="#" style="color:black;
+        font-size:18px;
+        padding-left:4vw; 
+        padding-bottom: 0.4vh;
+        ">Hi User</a>
+        <hr>
+    </div>
+    <div class="signout" style="display: none; padding-bottom: 0.4vh;
+      padding-top:1.3vh;">
+      <a href="#" style="color:black;
+        font-size:18px;
+        padding-left:4vw; 
+        padding-bottom: 0.4vh;
+        ">Sign Out</a>
+    </div>
+    <div class="signUp">
+      <hr />
+      <a href="#">Sign Up</a>
+    </div>
+
+
+  </dialog>
+
+  <!--This is for sign in popup-->
+  <dialog class="popup" id="signIn-popup">
+    <div class="popup-box" id="signIn-box">
+      <div>
+        <a href="#" id="link"><img src="./cross.png" alt="cross icon" class="cross-icon" /></a>
+      </div>
+
+      <form id="form2">
+        <h2>Sign In</h2>
+
+        <div class="form-control">
+          <div class="input-heading">
+            <label for="username">User Name</label>
+          </div>
+          <input type="text" name="username" id="username" class="input-style" /><br /><small></small>
+        </div>
+
+        <div class="form-control">
+          <div class="input-heading">
+            <label for="userpassword">Password</label>
+          </div>
+          <input type="password" name="userpassword" id="userpassword" autocomplete="off" class="input-style" />
+          <br />
+          <small></small>
+        </div>
+
+        <input type="submit" class="sub-btn" id="signIn-sub" />
+      </form>
+    </div>
+  </dialog>
+
+  <!--This is for signUp-->
+  <dialog class="popup" id="signUp-popup">
+    <div class="popup-box" id="signUp-box">
+      <div>
+        <a href="#" id="link" ><img src="./cross.png" alt="cross icon" class="cross-icon" /></a>
+      </div>
+
+      <form id="form3" method="post">
+        <h2>Sign Up</h2>
+
+        <div>
+          <div class="input-heading"><label for="gmail">Email ID</label></div>
+          <input type="email" name="gmail" id="gmail" class="input-style" autocomplete="on" />
+          <br />
+          <small id="msg"></small>
+        </div>
+
+
+        <button class="send-otp" style="display: block;">Send Otp</button>
+      </form>
+      <form id="otp-form">
+        <div class="form-control" id="verify-otp">
+          <div class="input-heading">
+            <label for="OTP">Enter OTP that sent to your Email</label>
+          </div>
+          <input type="text" name="otp" id="otp" autocomplete="off" class="input-style2" />
+          
+
+          <br />
+
+          <small></small><br>
+
+          <input type="submit" class="sub-btn" id="signUp-sub" />
+        </div>
+      </form>
+    </div>
+  </dialog>
+
+  <!--This is for set the user name and user password while signup -->
+  <dialog class="popup" id="signUp2-popup">
+    <div class="popup-box" id="signUp2-box">
+      <div>
+        <a href="#" id="link"><img src="./cross.png" alt="cross icon" class="cross-icon" /></a>
+      </div>
+
+      <form id="form4">
+
+        <h2>Sign UP</h2>
+        <div class="form-control">
+          <div class="input-heading">
+            <label for="setusername">Create User Name</label>
+          </div>
+          <input type="text" name="setusername" id="setusername" class="input-style" /><br /><small></small>
+        </div>
+
+        <div class="form-control">
+          <div class="input-heading">
+            <label for="setuserpassword">Create Password</label>
+          </div>
+          <input type="text" name="setuserpassword" id="setuserpassword" autocomplete="off" class="input-style" />
+          <br />
+          <small></small>
+        </div>
+
+        <input type="submit" class="sub-btn" id="signUp2-sub" />
+      </form>
+    </div>
+  </dialog>
+
+  <!--This is for contact us popup-->
+  <dialog class="popup" id="contact-popup">
+    <div class="popup-box">
+      <div>
+        <a href="#" id="link"><img src="./cross.png" alt="cross icon" class="cross-icon" /></a>
+      </div>
+
+      <form id="form">
+        <h2>Contact Us</h2>
+        <div class="form-control">
+          <div class="input-heading"><label for="name">Name</label></div>
+          <input type="text" name="name" id="name" class="input-style" autocomplete="off" /><br /><small></small>
+        </div>
+
+        <div>
+          <div class="input-heading"><label for="email">Email ID</label></div>
+          <input type="email" name="email" id="email" class="input-style" autocomplete="off" />
+          <br />
+          <small id="errormsg"></small>
+        </div>
+
+        <div class="form-control">
+          <div class="input-heading">
+            <label for="phoneNo">Phone No </label>
+          </div>
+          <input type="text" name="phoneNo" id="phoneNo" class="input-style" autocomplete="off" />
+          <br />
+
+          <small id="errormsg"></small>
+        </div>
+
+        <input type="submit" class="sub-btn" id="contact-sub" value="Submit" />
+
+      </form>
+    </div>
+  </dialog>
+
+
+  <div class="container">
+    <div class="slider">
+      <img id="slide1" src="./logo4.png" alt="slide1"/>
+      <img id="slide2" src="./logo6.png" alt="slide2" />
+      <img id="slide3" src="./logo4.png" alt="slide3" />
+      <img id="slide4" src="./logo6.png" alt="slide4" />
+    </div>
+  </div>
+
+  <div class="latest-updates">
+    <h3> WELCOME TO TECHNOLOGY UPDATES </h3>
+  </div>
+
+ 
+
+  <div class="card-container">
+  <div class="content">
+
+    <div class="card">
+      <img src="./Programming.png" alt="Programming Image" style="width:100% " height="75%">
+      <div class="container1">
+        <h2><b>Programming Updates</b></h2> 
+        <a href="./Service.html"><input type="submit" name="view"  id="view" value="View"></a>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img src="./cloud.jpg" alt="Cloud Image" style="width:100% " height="75%" >
+      <div class="container1">
+        <h2><b>Cloud Updates</b></h2> 
+        <a href="./Service.html"><input type="submit" name="view" id="view" value="View"></a>
+        
+      </div>
+
+      
+    </div>
+
+
+    <div class="card">
+      <img src="./ai.png" alt="ai Image" style="width:100% " height="75%">
+      <div class="container1">
+        <h2><b>AI/ML Updates</b></h2> 
+        <a href="./Service.html"><input type="submit" name="view" id="view"  value="View"></a>
+      </div>
+      
+    </div>
+    
+
+  </div>
+
+  <a href="./Service.html" class="content-button"><button>More Updates</button></a>
+
+</div>
+
+
+  <footer class="footer">
+    <div class="footer-box1">
+      <img src="./logo1.png" alt="logo Image" />
+    </div>
+
+    <div class="footer-box2">
+      <h2>About Us</h2>
+      <p>
+        TechUpdate is a website dedicated to providing valuable and
+        informative content about some popular technologies...
+        <a href="./About.html" class="read-more"><span>Read more</span> </a>
+      </p>
+      <h4 class="copyright">Copyright &copy 2024 TechUpdate All Rights Reserved</h4>
+    </div>
+
+    
+
+    <div class="footer-box3">
+      <h2>Follow Us</h2>
+      <a href="https://github.com/Rupeshkumar4511" target="_blank"><img src="./github.png" alt="github icon"
+          id="github-icon" /></a>
+      <a href="https://linkedin.com/in/rupesh-kumar-7349392a4" target="_blank"><img src="./linkedIn.png"
+          alt="linked icon" /></a>
+      <a href="https://www.instagram.com/rupeshsahani4511" target="_blank"><img src="./instagram.png"
+          alt="instagram icon" /></a>
+    </div>
+  </footer>
+
+  <script async src="https://cse.google.com/cse.js?cx=d6fd3d7692490465a">
+      </script>
+  <script src="./Login.js"></script>
+  <script src="./script.js"></script>
+  <script src="./contact_search.js"></script>
+  <script src="./media.js"></script>
+  
+  
+</body>
+
+</html>
