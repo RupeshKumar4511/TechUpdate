@@ -95,10 +95,20 @@ message3.addEventListener("click", () => {
 
 });
 
+let signInCheck = localStorage.getItem('signIn');
+if(signInCheck == 'YES'){
+    document.querySelector('.user').style.display = "block";
+    document.querySelector('.signIn').style.display = "none";
+    document.querySelector('.signout').style.display = "block";
+    document.querySelector('.signUp').style.display = "none";
+    
+}
+
 
 // for signOut 
 let signout_message = document.querySelector('.signout');
 signout_message.addEventListener('click', () => {
+    localStorage.setItem('signIn','NO');
     alert("Sign Out Successfully");
     signout_message.style.display = "none";
     document.querySelector('.user').style.display = "none";

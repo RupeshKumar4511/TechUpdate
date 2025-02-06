@@ -13,7 +13,6 @@ const userpassword = document.getElementById("userpassword");
 
 
 
-
 // This is for sign up popup
 const form3 = document.getElementById("form3");
 const gmail = document.getElementById("gmail");
@@ -183,6 +182,7 @@ document.querySelector("#signIn-sub").addEventListener('click', (e) => {
             return response.json(); 
         })
         .then(() => {
+            localStorage.setItem('signIn','YES');
             alert("Sign In Successfully");
             document.getElementById('signIn-popup').style.visibility = "hidden";
             document.getElementById('form2').reset();
@@ -190,7 +190,6 @@ document.querySelector("#signIn-sub").addEventListener('click', (e) => {
             document.querySelector('.signUp').style.display = "none";
             document.querySelector('.user').style.display = "block";
             document.querySelector('.signout').style.display = "block";
-            
 
             
         })
